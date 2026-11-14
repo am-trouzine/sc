@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SCMS — الدرس التأسيسي 1</title>
+  <style>
+    :root {
+      --bg: #fafaf7;
+      --ink: #1f2328;
+      --muted: #57606a;
+      --accent: #0b5cad;
+      --be: #b3261e;
+      --card: #ffffff;
+      --line: #d8dee4;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      padding: 1.5rem 1rem 4rem;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: "Segoe UI", Tahoma, "Noto Naskh Arabic", "Noto Sans Arabic", system-ui, sans-serif;
+      line-height: 1.85;
+    }
+    main { max-width: 860px; margin: 0 auto; }
+    h1 {
+      font-size: 1.6rem;
+      margin: 0 0 .25rem;
+      color: var(--accent);
+    }
+    h2 {
+      font-size: 1.25rem;
+      margin: 2rem 0 .75rem;
+      padding-bottom: .3rem;
+      border-bottom: 2px solid var(--line);
+    }
+    h3 { font-size: 1.05rem; margin: 1.4rem 0 .5rem; color: var(--muted); }
+    .subtitle { color: var(--muted); margin: 0 0 1.5rem; font-size: .95rem; }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 1rem 1.25rem;
+      margin: 1rem 0;
+    }
+    ul, ol { padding-inline-start: 1.4rem; margin: .5rem 0; }
+    li { margin: .3rem 0; }
+    a { color: var(--accent); }
+    /* highlight to be */
+    .be {
+      color: var(--be);
+      font-weight: 700;
+      background: #fdecea;
+      border-radius: 4px;
+      padding: 0 .25em;
+      white-space: nowrap;
+    }
+    /* bilingual word list */
+    .vocab { list-style: none; padding: 0; }
+    .vocab li {
+      display: flex;
+      justify-content: space-between;
+      gap: 1rem;
+      padding: .45rem .25rem;
+      border-bottom: 1px dashed var(--line);
+    }
+    .vocab li:last-child { border-bottom: 0; }
+    .vocab .en { font-weight: 600; direction: ltr; unicode-bidi: isolate; }
+    .vocab .ar { color: var(--muted); }
+    /* conjugation table */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      overflow: hidden;
+      margin: .75rem 0 1.25rem;
+    }
+    caption {
+      caption-side: top;
+      text-align: start;
+      font-weight: 700;
+      padding: .5rem .25rem;
+      color: var(--accent);
+    }
+    th, td {
+      padding: .55rem .7rem;
+      border-bottom: 1px solid var(--line);
+      text-align: start;
+    }
+    thead th { background: #eef3f9; font-size: .9rem; }
+    tbody tr:last-child td { border-bottom: 0; }
+    td.en, th.en { direction: ltr; unicode-bidi: isolate; }
+    .form-cell { color: var(--be); font-weight: 700; }
+    .short { color: var(--muted); font-size: .9rem; }
+    /* example lines */
+    .examples { list-style: none; padding: 0; margin: .5rem 0; }
+    .examples li {
+      direction: ltr;
+      unicode-bidi: isolate;
+      text-align: start;
+      padding: .35rem .5rem;
+      border-inline-start: 3px solid var(--line);
+      margin: .4rem 0;
+      background: var(--card);
+      border-radius: 6px;
+    }
+    .tag {
+      display: inline-block;
+      font-size: .75rem;
+      padding: .05rem .5rem;
+      border-radius: 999px;
+      background: #eef3f9;
+      color: var(--accent);
+      margin-inline-start: .5rem;
+      direction: ltr;
+    }
+    .links a {
+      display: inline-block;
+      padding: .45rem .9rem;
+      border: 1px solid var(--accent);
+      border-radius: 999px;
+      text-decoration: none;
+      margin: .25rem .25rem .25rem 0;
+      font-size: .9rem;
+    }
+    .links a:hover { background: var(--accent); color: #fff; }
+    .note {
+      background: #fff8e6;
+      border: 1px solid #f0d68a;
+      border-radius: 10px;
+      padding: .75rem 1rem;
+      font-size: .95rem;
+    }
+    .video { margin: 1rem 0; }
+    .video iframe {
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      border: 0;
+      border-radius: 12px;
+    }
+    footer {
+      margin-top: 3rem;
+      padding-top: 1rem;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-size: .85rem;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+<main>
+
+  <h1>SCMS</h1>
+  <p class="subtitle">سيتم وضع الملفات على هذه الصفحة — Files will be posted on this page.</p>
+
+  <!-- ================= SECTION 1 ================= -->
+  <section>
+    <h2>الدرس التأسيسي 1 — Foundational lesson 1</h2>
+    <h3>الفعل يكون — The verb <span class="be">to be</span></h3>
+
+    <!-- resources -->
+    <div class="links">
+      <a href="#" title="أضف رابط Google Drive للـ Word">صيغة Word</a>
+      <a href="#" title="أضف رابط Google Drive للـ PDF">صيغة PDF</a>
+    </div>
+
+    <!-- memorization -->
+    <div class="card">
+      <p>من هذا الدرس يجب حفظ ما يلي عن ظهر قلب:</p>
+      <ul>
+        <li>ضمائر الفاعل — subject pronouns</li>
+        <li>
+          تصريف <span class="be">to be</span> في الـ present simple بالصيغتين
+          الكاملة والمختصرة (contracted)
+        </li>
+      </ul>
+    </div>
+
+    <!-- video -->
+    <div class="video">
+      <iframe
+        src="https://www.youtube.com/embed/8fi_hV8G09w"
+        title="YouTube video — to be"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+      </iframe>
+    </div>
+
+    <!-- vocabulary -->
+    <h3>الكلمات المستعملة في الفيديو — Vocabulary</h3>
+    <ul class="vocab">
+      <li><span class="en">hungry</span><span class="ar">جائع</span></li>
+      <li><span class="en">happy</span><span class="ar">سعيد</span></li>
+      <li><span class="en">thirsty</span><span class="ar">عطشان</span></li>
+      <li><span class="en">father</span><span class="ar">أب</span></li>
+      <li><span class="en">mother</span><span class="ar">أم</span></li>
+      <li><span class="en">student</span><span class="ar">تلميذ / طالب</span></li>
+      <li><span class="en">teacher</span><span class="ar">معلم</span></li>
+    </ul>
+
+    <!-- objectives -->
+    <h3>الأهداف — Objectives</h3>
+    <div class="card">
+      <ul>
+        <li>
+          فهم <span class="be">to be</span> وبعض استعمالاته
+        </li>
+        <li>
+          التعبير عن النفس والآخرين باستعمال <span class="be">to be</span>
+          — الإثبات (affirmative):
+          <em class="examples" style="display:inline">I <span class="be">am</span> ready.</em>
+        </li>
+        <li>
+          نفي جمل <span class="be">to be</span>:
+          <em class="examples" style="display:inline">I <span class="be">am not</span> ready.</em>
+        </li>
+        <li>
+          طرح أسئلة نعم/لا:
+          <em class="examples" style="display:inline"><span class="be">Are</span> you ready?</em>
+        </li>
+        <li>
+          الإجابتان القصيرة والطويلة عن أسئلة نعم/لا:
+          <ul class="examples">
+            <li>Yes, I <span class="be">am</span>. <span class="tag">short</span></li>
+            <li>No, I'<span class="be">m</span> not. <span class="tag">short</span></li>
+            <li>Yes, I'<span class="be">m</span> ready. <span class="tag">long</span></li>
+            <li>No, I'<span class="be">m</span> not ready. <span class="tag">long</span></li>
+          </ul>
+        </li>
+        <li>
+          طرح أسئلة wh- بـ <span class="be">to be</span>:
+          <ul class="examples">
+            <li><span class="be">Who</span>'s ready?</li>
+            <li><span class="be">Where</span> <span class="be">is</span> my pen?</li>
+            <li><span class="be">What</span>'s your name?</li>
+            <li><span class="be">How</span> old <span class="be">are</span> you?</li>
+            <li><span class="be">Who</span> <span class="be">are</span> you?</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+
+    <!-- conjugation table -->
+    <h3>تصريف <span class="be">to be</span> — Present simple</h3>
+    <table>
+      <caption>Affirmative — الإثبات</caption>
+      <thead>
+        <tr>
+          <th>Subject pronoun</th>
+          <th>Full form</th>
+          <th>Contracted</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td class="en">I</td><td class="en form-cell">am</td><td class="en short">I'm</td></tr>
+        <tr><td class="en">you</td><td class="en form-cell">are</td><td class="en short">you're</td></tr>
+        <tr><td class="en">he</td><td class="en form-cell">is</td><td class="en short">he's</td></tr>
+        <tr><td class="en">she</td><td class="en form-cell">is</td><td class="en short">she's</td></tr>
+        <tr><td class="en">it</td><td class="en form-cell">is</td><td class="en short">it's</td></tr>
+        <tr><td class="en">we</td><td class="en form-cell">are</td><td class="en short">we're</td></tr>
+        <tr><td class="en">you (pl.)</td><td class="en form-cell">are</td><td class="en short">you're</td></tr>
+        <tr><td class="en">they</td><td class="en form-cell">are</td><td class="en short">they're</td></tr>
+      </tbody>
+    </table>
+
+    <table>
+      <caption>Negative — النفي</caption>
+      <thead>
+        <tr>
+          <th>Subject pronoun</th>
+          <th>Full form</th>
+          <th>Contracted</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td class="en">I</td><td class="en form-cell">am not</td><td class="en short">I'm not</td></tr>
+        <tr><td class="en">you</td><td class="en form-cell">are not</td><td class="en short">you aren't / you're not</td></tr>
+        <tr><td class="en">he</td><td class="en form-cell">is not</td><td class="en short">he isn't / he's not</td></tr>
+        <tr><td class="en">she</td><td class="en form-cell">is not</td><td class="en short">she isn't / she's not</td></tr>
+        <tr><td class="en">it</td><td class="en form-cell">is not</td><td class="en short">it isn't / it's not</td></tr>
+        <tr><td class="en">we</td><td class="en form-cell">are not</td><td class="en short">we aren't / we're not</td></tr>
+        <tr><td class="en">you (pl.)</td><td class="en form-cell">are not</td><td class="en short">you aren't / you're not</td></tr>
+        <tr><td class="en">they</td><td class="en form-cell">are not</td><td class="en short">they aren't / they're not</td></tr>
+      </tbody>
+    </table>
+
+    <table>
+      <caption>Questions — الأسئلة (yes/no)</caption>
+      <thead>
+        <tr>
+          <th>Question</th>
+          <th>Short answer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td class="en"><span class="form-cell">Am</span> I …?</td><td class="en">Yes, I am. / No, I'm not.</td></tr>
+        <tr><td class="en"><span class="form-cell">Are</span> you …?</td><td class="en">Yes, you are. / No, you aren't.</td></tr>
+        <tr><td class="en"><span class="form-cell">Is</span> he …?</td><td class="en">Yes, he is. / No, he isn't.</td></tr>
+        <tr><td class="en"><span class="form-cell">Is</span> she …?</td><td class="en">Yes, she is. / No, she isn't.</td></tr>
+        <tr><td class="en"><span class="form-cell">Is</span> it …?</td><td class="en">Yes, it is. / No, it isn't.</td></tr>
+        <tr><td class="en"><span class="form-cell">Are</span> we …?</td><td class="en">Yes, we are. / No, we aren't.</td></tr>
+        <tr><td class="en"><span class="form-cell">Are</span> they …?</td><td class="en">Yes, they are. / No, they aren't.</td></tr>
+      </tbody>
+    </table>
+
+    <p class="note">
+      ملاحظة: كل أشكال <span class="be">to be</span> (am / is / are / 'm / 's / 're / isn't / aren't)
+      مظللة بالأحمر في هذه الصفحة لتسهيل حفظها.
+    </p>
+  </section>
+
+  <footer>
+    SCMS — <a href="https://am-trouzine.github.io/scms/">am-trouzine.github.io/scms</a>
+  </footer>
+
+</main>
+</body>
+</html>
